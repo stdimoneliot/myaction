@@ -1,5 +1,5 @@
 name: MyAction Demo
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   MyAction:
     runs-on: ubuntu-latest
